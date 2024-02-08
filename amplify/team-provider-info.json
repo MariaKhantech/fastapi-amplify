@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fastapiamplify-dev-211000-authRole",
+      "UnauthRoleArn": "arn:aws:iam::099841327948:role/amplify-fastapiamplify-dev-211000-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::099841327948:role/amplify-fastapiamplify-dev-211000-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-fastapiamplify-dev-211000-deployment",
+      "UnauthRoleName": "amplify-fastapiamplify-dev-211000-unauthRole",
+      "StackName": "amplify-fastapiamplify-dev-211000",
+      "StackId": "arn:aws:cloudformation:us-east-1:099841327948:stack/amplify-fastapiamplify-dev-211000/2aa7d390-c627-11ee-b37c-0afa83937f2b",
+      "AmplifyAppId": "d30mwho599uqqs"
+    }
+  }
+}

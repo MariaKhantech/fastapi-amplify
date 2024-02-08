@@ -1,0 +1,10 @@
+{
+  "function": {
+    "fastapiamplifydd3cc03b": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}

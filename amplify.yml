@@ -1,0 +1,23 @@
+version: 1
+backend:
+  phases:
+    preBuild:
+      commands:
+        # Navigate to the Lambda function's src directory
+        - cd amplify/backend/function/fastapiamplifydd3cc03b/src
+        # Install dependencies from requirements.txt into the current directory
+        - pip install -r requirements.txt -t .
+        # Navigate back to the project root directory (if necessary)
+        - cd ../../../../../
+    build:
+      commands:
+        # Include any build commands for your backend here
+        - echo "Build phase for the backend"
+  artifacts:
+    baseDirectory: amplify/backend/function/myLambdaFunction/src
+    files:
+      - '**/*'
+  cache:
+    paths:
+      # Cache the installed dependencies to speed up subsequent builds
+      - amplify/backend/function/myLambdaFunction/src/**/*.py

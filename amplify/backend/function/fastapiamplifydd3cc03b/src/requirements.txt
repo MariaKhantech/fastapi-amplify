@@ -1,0 +1,3 @@
+fastapi==0.68.0
+uvicorn==0.15.0  # Only needed for local development, not for AWS Lambda
+mangum==0.12.0
